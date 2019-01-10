@@ -1,6 +1,12 @@
-```
-//旋转数组
+/*
+ * @Author: 拎把木剑当大侠
+ * @Date: 2019-01-07 17:13:14
+ * @LastEditors:  
+ * @LastEditTime: 2019-01-10 11:25:21
+ * @Description: 
+ */
 #include <stdio.h>
+
 void rotate(int *nums, int numsSize, int k);
 void main()
 {
@@ -49,6 +55,3 @@ void rotate(int *nums, int numsSize, int k)
         nums[i] = a[i];
     }
 }
-
-
-```
