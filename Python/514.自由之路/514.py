@@ -16,7 +16,7 @@ class Solution:
             # 遍历存在该值的字典数组
             for curIndex in dic[ch]:
                 # 设置一个最小次，在下面循环时得出的值需要与这个最小值比较
-                this_min = float('inf')
+                this_min = float('inf')#这里是正无穷
                 for pastIndex, m in past:  # 此次m表示上一次最小的距离
                     # 当前位置与前1位置距离最近的点
                     temp = abs(curIndex - pastIndex)
