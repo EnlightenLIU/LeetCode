@@ -24,5 +24,6 @@ class Solution(object):
         if root.val < L:
             return self.trimBST(root.right, L, R)
 
+
             # root.val > R
         return self.trimBST(root.left, L, R)
